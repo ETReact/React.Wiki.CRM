@@ -354,7 +354,7 @@ namespace React.Wiki.CRM.ConsoleApp
                     JObject jobj = new JObject();
                     jobj.Add("Id", "testID");
                     jobj.Add("Field1", "Description");
-                    jobj.Add("Field1", "Description_2");
+                    jobj.Add("Field2", "Description_2");
 
                     streamWriter.Write(jobj);
                 }
