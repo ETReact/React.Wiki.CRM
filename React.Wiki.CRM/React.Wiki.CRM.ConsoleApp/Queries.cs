@@ -4,7 +4,7 @@ using Microsoft.Xrm.Tooling.Connector;
 using System;
 using System.Configuration;
 
-namespace React.CRM.ConsoleApp
+namespace React.Wiki.CRM.ConsoleApp
 {
     internal class Queries
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.Xrm.Tooling.Connector;
 
-namespace React.CRM.ConsoleApp
+namespace React.Wiki.CRM.ConsoleApp
 {
     class Program
     {

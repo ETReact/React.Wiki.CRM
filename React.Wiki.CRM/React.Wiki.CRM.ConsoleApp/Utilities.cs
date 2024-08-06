@@ -15,7 +15,7 @@ using System.Net;
 using System.Threading.Tasks;
 using System.Web.Script.Serialization;
 
-namespace React.CRM.ConsoleApp
+namespace React.Wiki.CRM.ConsoleApp
 {
     internal class Utilities
     {
