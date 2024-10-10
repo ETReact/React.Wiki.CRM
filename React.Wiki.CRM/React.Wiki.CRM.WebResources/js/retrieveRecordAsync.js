@@ -50,7 +50,7 @@ function retrieveHTTPfilterOData(entityCollection, value) {
 
 //XRM WEB API FOR SINGLE RECORD
 function retrieveRecordXRMAPI(entityName, id) {
-    Xrm.WebApi.online.retrieveeRecord(entityName /* i.e. account */, id.replace("{", "").replace("}", ""), "?$select=rct_fieldname").then(
+    Xrm.WebApi.online.retrieveRecord(entityName /* i.e. account */, id.replace("{", "").replace("}", ""), "?$select=rct_fieldname").then(
         function success(result) {
             console.log("Retrieved value: " + result.rct_fieldname);
         },
